@@ -1,0 +1,17 @@
+[package]
+name = "dev_tool_rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Laobieyia <laobieyia@126.com>"]
+# 以下是描述和文档链接等可选字段
+description = "A useful development tool for various tasks"
+
+license = "MIT OR Apache-2.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.31"
+clap = "4.4.10"
+serde = "1.0.193"
+serde_json = "1.0.108"
+urlencoding = "2.1.3"
